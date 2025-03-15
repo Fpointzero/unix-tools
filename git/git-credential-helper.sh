@@ -26,7 +26,7 @@ done
 
 # 加密函数
 encrypt() {
-    echo "$1" | openssl enc -aes-256-cbc -pbkdf2 -salt -pass pass:"$SECRET_KEY" | base64
+    echo "$1" | openssl enc -aes-256-cbc -pbkdf2 -salt -pass pass:"$SECRET_KEY" | base64 | tr -d '\n'
 }
 
 # 解密函数
