@@ -1,5 +1,7 @@
 # wsl-tools
 
+[![License](https://img.shields.io/badge/License-MIT_License-blue)](License)
+
 [English](README.md) | [中文版](README.zh-CN.md)
 
 `wsl-tools` 是一个基于 PowerShell, bash 的工具集，用于管理和操作 Windows Subsystem for Linux (WSL)。

@@ -1,5 +1,7 @@
 # wsl-tools
 
+[![License](https://img.shields.io/badge/License-MIT_License-blue)](License)
+
 [English](README.md) | [中文版](README.zh-CN.md)
 
 `wsl-tools` is a toolset based on PowerShell and bash, designed to manage and operate the Windows Subsystem for Linux (WSL).
