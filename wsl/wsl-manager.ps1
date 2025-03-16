@@ -197,7 +197,7 @@ function Show-Menu {
         Write-Host "2. Backup a WSL distro";
         Write-Host "3. Restore a WSL distro";
         Write-Host "4. Migrate a WSL distro";
-        Write-Host "5. Exit";
+        Write-Host "Q/q. Exit";
 
         $choice = Read-Host "Enter your choice (1-5)";
         switch ($choice) {
@@ -205,7 +205,7 @@ function Show-Menu {
             2 { Backup-Distro; }
             3 { Restore-Distro; }
             4 { Migrate-Distro; }
-            5 { Write-Host "Exiting..."; return; }
+            'Q' { Write-Host "Exiting..."; return; }
             default { Write-Host "Invalid choice. Please select a valid option."; }
         }
     }
