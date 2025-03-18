@@ -164,9 +164,9 @@ setproxy fpointzero.localhost:10808
 `git-credential-helper.sh` is a Git credential manager used to manage Git credentials. It uses OpenSSL for encryption storage, with AES as the encryption algorithm.
 
 Parameter parsing:
-```bash
---file Specify the credential storage file path, default is ~/.custom-git-credentials
---secret-key Specify the encryption key, default is your-secret-key
+```
+--file <filepath>, Specify the credential storage file path, default is ~/.custom-git-credentials
+--secret-key <secret-key>, Specify the encryption key, default is your-secret-key
 ```
 
 Usage:

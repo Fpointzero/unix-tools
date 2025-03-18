@@ -164,9 +164,9 @@ setproxy fpointzero.localhost:10808
 git-credential-helper.sh是一个git凭证管理器，可以用来管理git的凭证。使使用openssl来进行加密存储，加密算法为AES。
 
 参数解析：
-```bash
---file 指定凭证存储文件路径，默认为~/.custom-git-credentials
---secret-key 指定加密密钥，默认为your-secret-key
+```
+--file <filepath>, 指定凭证存储文件路径，默认为~/.custom-git-credentials
+--secret-key <secret-key>, 指定加密密钥，默认为your-secret-key
 ```
 
 使用方法:
